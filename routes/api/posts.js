@@ -4,10 +4,6 @@ const Post = require("../../models/Post");
 const passport = require("passport");
 const validatePostInput = require("../../validation/post");
 
-// @route - GET api/posts/:author
-// @desc - get blog posts of the current user
-// @access - public
-
 router.get(
    "/",
    passport.authenticate("jwt", { session: false }),
