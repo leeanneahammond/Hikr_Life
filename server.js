@@ -1,5 +1,5 @@
 const express = require("express");
-require("dotenv").config(); // for loading environment variables
+require("dotenv").config(); 
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const app = express();
