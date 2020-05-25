@@ -2,6 +2,6 @@ const express = require('express');
 const router = express.Router();
 const { time } = require('../controllers/auth');
 
-router.get('/signup', signup);
+router.post('/signup', signup);
 
 module.exports = router;
